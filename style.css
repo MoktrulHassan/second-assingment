@@ -1,0 +1,248 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Navbar Part */
+.section-1 {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.div-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listing {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+    list-style: none;
+    padding-right: 200px;
+}
+
+.nav-head {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 200px;
+}
+
+pre {
+    color: #727272;
+}
+
+/* Header-part */
+
+.header {
+    text-align: center;
+}
+
+.header-title {
+    font-size: 3rem;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.explore-btn {
+    font-size: 1rem;
+    margin-left: 680px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 15px 24px;
+    color: white;
+    border-color: #FF900E;
+    background-color: #FF900E;
+}
+
+/* Banner-part */
+
+.banner-img {
+    width: 850px;
+    height: 500px;
+    margin-left: 300px;
+    margin-right: 350px;
+
+}
+
+/* Quick-Section */
+
+.quick-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 190px;
+}
+
+.quick-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.quick-pragraph {
+    padding-top: 200px;
+
+}
+
+.quick-head {
+    font-size: 2rem;
+
+}
+
+p {
+    color: #727272;
+}
+
+.quick-btn {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 15px 15px;
+    color: white;
+    border-color: #FF900E;
+    background-color: #FF900E;
+}
+
+/* Features Part */
+
+.section-3 {
+    padding: 50px 100px 50px 150px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.features-head {
+    padding-left: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    border-left: 6px solid #FF900E;
+    /* height: 50px; */
+}
+
+.features-elements {
+    padding-right: 30px;
+    padding-left: 50px;
+}
+
+.features-div {
+    /* padding-left: 30px; */
+    padding: 10px 15px;
+}
+
+.features-p {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.features-img {
+    width: 620px;
+    height: 1050px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.features-btn {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px 3px;
+    color: white;
+    border-color: #FF900E;
+    background-color: #FF900E;
+}
+
+/* Facts Part */
+
+.facts-div{
+    margin-left: 180px;
+    padding-right: 770px;
+    padding-bottom: 50px;
+}
+.facts-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Facts-imgs{
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    border: 2px solid #FF900E;
+    
+}
+.facts-container:hover{
+    color:#FF900E;
+}
+
+/* Sponspors Part */
+.Sponspors{
+    padding-top: 100px;
+    text-align: center;
+}
+.Sponspors-div{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ /* Footer Part */
+footer{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 100px 100px;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+footer:hover{
+    background-color: aqua;
+}
+
+/* Responsive Part */
+
+@media screen and (max-width: 576px) { .div-container{
+    flex-direction: column;
+    width: 100%;
+}  
+}
+
+@media screen and (max-width: 576px) { .quick-container,.facts-container{
+    flex-direction: column;
+    gap: 10px;
+}
+    
+}
+
+@media screen and (max-width: 576px) { .Sponspors-div,.facts-div{
+    flex-direction:column;
+    gap: 10px;
+    padding-left: 200px;
+}  
+}
+
+@media screen and (max-width:576px) {.quick-img{
+    grid-template-columns: repeat(1,1fr);
+}   
+}
+
+@media screen and (max-width: 576px) { .features-container{
+    flex-direction:column;
+}  
+}
+
+@media screen and (max-width: 576px) { .facts-div{
+    padding-left: 50px;
+}  
+}
+
+@media screen and (max-width: 576px) { .header-p,.div-container{
+    padding-left: 200px;
+}  
+}
+
